@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: PostProcessing Profile
   m_EditorClassIdentifier: 
   settings:
-  - {fileID: 351366010827421922}
---- !u!114 &351366010827421922
+  - {fileID: 2635672518099010623}
+--- !u!114 &2635672518099010623
 MonoBehaviour:
   m_ObjectHideFlags: 3
   m_CorrespondingSourceObject: {fileID: 0}

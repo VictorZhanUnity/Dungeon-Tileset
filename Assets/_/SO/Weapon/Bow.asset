@@ -14,6 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   attackPower: 3
   attackInterval: 0.3
-  range: 8
-  readyToShoot: 0.3
-  projectileObj: {fileID: 2313663035034649171, guid: c9627d15785c18741af4dc4093fc63ca, type: 3}
+  attackRange: 8
+  bullet: {fileID: 2313663035034649171, guid: c9627d15785c18741af4dc4093fc63ca, type: 3}
+  projectileSpeed: 46.2

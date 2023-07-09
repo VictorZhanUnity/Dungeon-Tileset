@@ -13,3 +13,7 @@ MonoBehaviour:
   m_Name: Archer
   m_EditorClassIdentifier: 
   moveSpeed: 3
+  attackPower: 3
+  attackInterval: 1
+  attackRange: 1
+  weaponSO: {fileID: 0}

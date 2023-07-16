@@ -9,6 +9,9 @@ public class ProjectileWeapon : Weapon
 
   public override void Attack(Vector3 direction, Vector3 angle, CharacterStatusSO attacker)
   {
+    if (isAbleToAttack == false) return;
+    AttackActivated();
+
     ProjectileWeaponSO projectileWeaponSO = weaponSO_Data as ProjectileWeaponSO;
     GameObject bullet = Instantiate(projectileWeaponSO.bullet, _firePoint.position, Quaternion.identity);
     if (bullet.TryGetComponent(out Projectile projectile))
